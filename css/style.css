@@ -318,4 +318,30 @@ form {
         -ms-flex-direction: column;
             flex-direction: column;
   }
+  .limit__inner {
+    width: 110px;
+    height: 110px;
+  }
+  .limit__inner:hover {
+    margin-left: -20px;
+  }
+  .limit__inner:focus {
+    margin-left: -20px;
+  }
+  .notice {
+    width: 103px;
+    height: 105px;
+    margin: 0px;
+    background: none;
+    border: none;
+    resize: none;
+    font-family: 'Architects Daughter', cursive;
+    font-weight: bold;
+    -webkit-hyphens: auto;
+        -ms-hyphens: auto;
+            hyphens: auto;
+  }
+  .notice:focus {
+    outline: none;
+  }
 }

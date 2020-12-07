@@ -229,5 +229,33 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7d7e7d', end
     display: flex;
     flex-direction: column;
   }
-  
+  .limit {
+    &__inner {
+      width: 110px;
+      height: 110px;
+      &:hover{
+         margin-left: -20px;
+      }
+      &:focus{
+        margin-left: -20px;
+     }
+    }
+    }
+    .notice{
+      width: 103px;
+      height: 105px;
+      margin: 0px;
+      background: none;
+      border: none;
+      resize: none;
+      font-family: 'Architects Daughter', cursive;
+      font-weight: bold;
+      hyphens: auto;
+      
+      
+      &:focus{
+        outline: none;
+        
+      }
+    }
 }
