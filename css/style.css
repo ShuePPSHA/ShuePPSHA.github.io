@@ -344,4 +344,7 @@ form {
   .notice:focus {
     outline: none;
   }
+  .close:before, .close:after {
+    left: 100px;
+  }
 }
